@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             if(start != firstVowel) {
-                String startString = etWord.(firstVowel, end);
+                String startString = etWord.(firstVowel, end)
                 String endString = etWord.(start, firstVowel) + "ay";
                 return startString+endString;
 
